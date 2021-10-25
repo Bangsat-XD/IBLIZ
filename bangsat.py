@@ -108,41 +108,41 @@ def lang(cookies):
 			b=requests.get("https://mbasic.facebook.com/profile.php",headers=hdcok(),cookies=cookies).text	
 			if "apa yang anda pikirkan sekarang" in b.lower():
 				f=True
-	jika  f == Benar :
-		kembali  Benar
-	lain :
-		keluar ( p + " [" + k + "•" + m + "•" + p + "] Cookie Salah" )
+		if f==True:
+		return True
+	else:
+		exit(p+" ["+k+"•"+m+"•"+p+"] Wrong Cookies")
 
-def  basecookie ():
-	jika  os . jalan . ada ( ".cok" ):
-		jika  os . jalan . getsize ( ".cok" ) != 0 :
-			kembali  get_dict_cookies ( buka ( '.cok' ). baca (). strip ())
-		lain : log ()
-	lain : log ()
+def basecookie():
+	if os.path.exists(".cok"):
+		if os.path.getsize(".cok") !=0:
+			return gets_dict_cookies(open('.cok').read().strip())
+		else:logs()
+	else:logs()
 
-def  hdcok ():
-	 tuan rumah global , ua
-	tuan rumah = tuan rumah
-	. bergabung ( bs4 .re . findall ( "://(.*?)$" , hosts )), "referer" : hosts + "/login/?next&ref=dbl&fl&refid=8" , "cache-control" : "max-age=0" , "upgrade-insecure-requests" : "1" , "content-type" : "application/x-www-form-urlencoded" }
-	kembali  r
+def hdcok():
+		global host,ua
+	hosts=host
+	r={"origin": hosts, "accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7", "accept-encoding": "gzip, deflate", "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8", "user-agent": "Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]", "Host": "".join(bs4.re.findall("://(.*?)$",hosts)), "referer": hosts+"/login/?next&ref=dbl&fl&refid=8", "cache-control": "max-age=0", "upgrade-insecure-requests": "1", "content-type": "application/x-www-form-urlencoded"}
+	return r
 
-def  get_cookies ( cookie ):
-	hasil = []
-	untuk  saya  di  enumerate ( cookies . keys ()):
-		if  i [ 0 ] == len ( list ( cookies . keys ())) - 1 : result . tambahkan ( i [ 1 ] + "=" + cookie [ i [ 1 ]])
-		lain : hasil . tambahkan ( i [ 1 ] + "=" + cookie [ i [ 1 ]] + "; " )
-	kembali  "" . bergabung ( hasil )
+def gets_cookies(cookies):
+	result=[]
+	for i in enumerate(cookies.keys()):
+		if i[0]==len(list(cookies.keys()))-1:result.append(i[1]+"="+cookies[i[1]])
+		else:result.append(i[1]+"="+cookies[i[1]]+"; ")
+	return "".join(result)
 
-def  get_dict_cookies ( cookie ):
-	hasil = {}
-	coba :
-		untuk  saya  di  cookie . membagi ( ";" ):
-			hasil . perbarui ({ i . split ( "=" )[ 0 ]: i . split ( "=" )[ 1 ]})
-		 hasil kembali
-	kecuali :
-		untuk  saya  di  cookie . bagi ( "; " ):
-			hasil . perbarui ({ i . split ( "=" )[ 0 ]: i . split ( "=" )[ 1 ]})
-		 hasil kembali
+def gets_dict_cookies(cookies):
+	result={}
+	try:
+		for i in cookies.split(";"):
+			result.update({i.split("=")[0]:i.split("=")[1]})
+		return result
+	except:
+		for i in cookies.split("; "):
+			result.update({i.split("=")[0]:i.split("=")[1]})
+		return result
 
  
 ### Hubungi IG ####
