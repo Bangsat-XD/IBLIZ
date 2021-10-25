@@ -202,7 +202,7 @@ def  log_token ():
     os . sistem ( "jelas" )
     spanduk ()
     toket  =  masukan ( p + " \n [" + k + "•" + m + "•" + p + "] Token: " )
-    coba:
+    try:
         otw  =  permintaan . dapatkan ( "https://graph.facebook.com/me?access_token="  +  toket )
         a  =  json . beban ( otw . teks )
         nama  =  a [ "nama" ]
