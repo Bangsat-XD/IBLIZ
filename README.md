@@ -12,6 +12,8 @@
 
 [![ReadmeCard](https://github-readme-stats.vercel.app/api/pin/?username=Bangsat-XD&repo=BAJINGAN&theme=chartreuse-dark)](https://github.com/Bangsat-XD/BAJINGAN)
 
+[![ReadmeCard](https://github-readme-stats.vercel.app/api/pin/?username=Bangsat-XD&repo=IBLIZ&theme=chartreuse-dark)](https://github.com/Bangsat-XD/IBLIZ)
+
   
 </h1>
 <h4 align="center">
