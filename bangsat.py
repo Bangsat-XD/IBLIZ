@@ -202,22 +202,6 @@ def log_token():
     os.system("clear")
     banner()
     toket = input(p+"\n ["+k+"•"+m+"•"+p+"] Token: ")
-    try:
-        otw = requests.get("https://graph.facebook.com/me?access_token=" + toket)
-        a = json.loads(otw.text)
-        nama = a["name"]
-        zedd = open("login.txt", "w")
-        zedd.write(toket)
-        zedd.close()
-        print((p+" ["+k+"•"+m+"•"+p+"] Login Berhasil!"))
-        jalan((p+" ["+k+"•"+m+"•"+p+"] Please Subscribe My Channel:)"))
-        os.system('xdg-open https://youtube.com/channel/UCeha3A70FKR-YqGT5oY-7nQ')
-        bot_follow()
-        menu()
-    except KeyError:
-        print((p+"\n ["+k+"•"+m+"•"+p+"] Token Invalid"))
-        #os.system("xdg-open https://youtube.com/channel/UCeha3A70FKR-YqGT5oY-7nQ")
-        logs()
 
 def  gen ():
         os . sistem ( "jelas" )
