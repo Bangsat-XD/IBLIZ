@@ -207,6 +207,7 @@ def  gen ():
         os . sistem ( "jelas" )
         spanduk ()
         cookie  =  masukan ( p + " \n [" + k + "•" + m + "•" + p + "]" + p + " Cookie: " )
+def  gen ():
                 data  =  permintaan . dapatkan ( "https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_" , header  = {
                 "user-agent"                 : "Mozilla/5.0 (Linux; Android 8.1.0; MI 8 Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.86 Mobile Safari/537.36" , # Jangan Di Ganti Ea Anjink.
                 "referer"                    : "https://m.facebook.com/" ,
