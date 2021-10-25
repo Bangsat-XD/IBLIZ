@@ -99,15 +99,15 @@ def clear():
 		os.system("cls")
 	else:os.system("clear")
     
-def  lang ( kue ):
-	f = Salah
-	rr = bs4 . BeautifulSoup ( request . get ( "https://mbasic.facebook.com/language.php" , header = hdcok (), cookies = cookies ). text , "html.parser" )
-	untuk  saya  di  rr . find_all ( "a" , href = True ):
-		jika  "id_ID"  di  i . dapatkan ( "href" ):
-			permintaan . dapatkan ( "https://mbasic.facebook.com/" + i . get ( "href" ), cookie = cookie , header = hdcok ())
-			b = permintaan . dapatkan ( "https://mbasic.facebook.com/profile.php" , header = hdcok (), cookie = cookie ). teks	
-			jika  "apa yang anda sekarang"  di  b . lebih rendah ():
-				f = Benar
+def lang(cookies):
+	f=False
+	rr=bs4.BeautifulSoup(requests.get("https://mbasic.facebook.com/language.php",headers=hdcok(),cookies=cookies).text,"html.parser")
+	for i in rr.find_all("a",href=True):
+		if "id_ID" in i.get("href"):
+			requests.get("https://mbasic.facebook.com/"+i.get("href"),cookies=cookies,headers=hdcok())
+			b=requests.get("https://mbasic.facebook.com/profile.php",headers=hdcok(),cookies=cookies).text	
+			if "apa yang anda pikirkan sekarang" in b.lower():
+				f=True
 	jika  f == Benar :
 		kembali  Benar
 	lain :
