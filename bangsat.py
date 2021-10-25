@@ -31,28 +31,28 @@ from datetime import date
 from datetime import datetime
 current = datetime.now()
 
-p  =  " \x1b [0;37m"  # putih
-m  =  " \x1b [0;31m"  # merah
-h  =  " \x1b [0;32m"  # hijau
-k  =  " \x1b [0;33m"  # kuning
-b  =  " \x1b [0;34m"  # biru
-u  =  " \x1b [0;35m"  # ungu
-o  =  " \x1b [0;36m"  # biru muda
+p = "\x1b[0;37m" # putih
+m = "\x1b[0;31m" # merah
+h = "\x1b[0;32m" # hijau
+k = "\x1b[0;33m" # kuning
+b = "\x1b[0;34m" # biru
+u = "\x1b[0;35m" # ungu
+o = "\x1b[0;36m" # biru muda
 
-if ( "linux"  di  sys . platform . lower ()):
+if ("linux" in sys.platform.lower()):
 
-        N  =  " \033 [0m"
-        G  =  " \033 [1;92m"
-        O  =  " \033 [1;97m"
-        R  =  " \033 [1;91m"
-lain :
+        N = "\033[0m"
+        G = "\033[1;92m"
+        O = "\033[1;97m"
+        R = "\033[1;91m"
+else:
 
-        N  =  ""
-        G  =  ""
-        O  =  ""
-        R  =  ""
+        N = ""
+        G = ""
+        O = ""
+        R = ""
 
-### KEPALA ###
+### HEADERS ###
 
  spanduk def ():
     cetak ( """ \033 [1;37m
