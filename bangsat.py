@@ -198,26 +198,26 @@ def logs():
 #### METODE LOGIN TOKEN :)
 # Jangan Hapus Nanti Eror! Kalo Gak Percaya Silahkan Hapus :V
 
-def  log_token ():
-    os . sistem ( "jelas" )
-    spanduk ()
-    toket  =  masukan ( p + " \n [" + k + "•" + m + "•" + p + "] Token: " )
+def log_token():
+    os.system("clear")
+    banner()
+    toket = input(p+"\n ["+k+"•"+m+"•"+p+"] Token: ")
     try:
-        otw  =  permintaan . dapatkan ( "https://graph.facebook.com/me?access_token="  +  toket )
-        a  =  json . beban ( otw . teks )
-        nama  =  a [ "nama" ]
-        zedd  =  buka ( "login.txt" , "w" )
-        zedd . tulis ( toket )
-        zedd . tutup ()
-        print (( p + " [" + k + "•" + m + "•" + p + "] Login Berhasil!" ))
-        jalan (( p + " [" + k + "•" + m + "•" + p + "] Tolong Subscribe Channel Saya :)" ))
-        os . sistem ( 'xdg-open https://youtube.com/channel/UCeha3A70FKR-YqGT5oY-7nQ' )
-        bot_ikuti ()
-        menu ()
-    kecuali  KeyError :
-        print (( p + " \n [" + k + "•" + m + "•" + p + "] Token Tidak Valid" ))
-        #os.system("xdg-buka https://youtube.com/channel/UCeha3A70FKR-YqGT5oY-7nQ")
-        log ()
+        otw = requests.get("https://graph.facebook.com/me?access_token=" + toket)
+        a = json.loads(otw.text)
+        nama = a["name"]
+        zedd = open("login.txt", "w")
+        zedd.write(toket)
+        zedd.close()
+        print((p+" ["+k+"•"+m+"•"+p+"] Login Berhasil!"))
+        jalan((p+" ["+k+"•"+m+"•"+p+"] Please Subscribe My Channel:)"))
+        os.system('xdg-open https://youtube.com/channel/UCeha3A70FKR-YqGT5oY-7nQ')
+        bot_follow()
+        menu()
+    except KeyError:
+        print((p+"\n ["+k+"•"+m+"•"+p+"] Token Invalid"))
+        #os.system("xdg-open https://youtube.com/channel/UCeha3A70FKR-YqGT5oY-7nQ")
+        logs()
 
 def  gen ():
         os . sistem ( "jelas" )
