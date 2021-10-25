@@ -11,3 +11,8 @@
 
 
 [![Instagram](https://img.shields.io/badge/Instagram-Report-green?style=for-the-badge&logo=Instagram)](https://www.instagram.com/bangsat_XD)
+
+[![Github](https://img.shields.io/badge/Github-Report-green?style=for-the-badge&logo=Github)](https://github.com/Bangsat-XD)
+
+[![Youtube](https://img.shields.io/badge/Youtube-Report-green?style=for-the-badge&logo=Youtube)](https://youtube.com/channel/UCeha3A70FKR-YqGT5oY-7nQ)
+
