@@ -8,4 +8,6 @@
 </p>
 
 ### ☆ <b>REPORT BUG
+
+
 [![Instagram](https://img.shields.io/badge/Instagram-Report-green?style=for-the-badge&logo=Instagram)](https://www.instagram.com/bangsat_XD)
