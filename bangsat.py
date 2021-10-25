@@ -54,26 +54,21 @@ else:
 
 ### HEADERS ###
 
- spanduk def ():
-    cetak ( """ \033 [1;37m
-       _ _ __ ___ ____
-      / \033 [1;91bln \033 [1;37m.) / \,' / / \033 [1;91bln \033 [1;37m.) / __/
-     / \033 [1;91bln \033 [1;37m \ / \,' / / \033 [1;91bln \033 [1;37m \ / _/   \033 [1;33m• \033 [1;91m•]) \033 [1;37m bola \033 [1;91mXD \033 [1;37m.
-    /___,' /_/ /_/ /___,' /_/     
-  \033 [1;33m• \033 [1;91m• \033 [1;37m Alat Baru Meretas Facebook Secara Acak \033 [1;33m• \033 [1;91m• \033 [1;37m]
- \033 [1;33m• \033 [1;91m• \033 [1;37m Gunakan Akun Tumbal Untuk Login! \033 [1;33m• \033 [1;91m• \033 [1;37m .]
-\ 033 [1; 37m ~ \ 033 [1; 91m ~ \ 033 [1; 37m ~ \ 033 [1; 91m ~ \ 033 [1; 37m ~ \ 033 [1; 91m ~ \ 033 [1; 37m ~ \ 033 [1;91m~ \033 [1;37m~ \033 [1;91m~ \033 [1;37m~ \033 [1;91m~ \033 [1;37m~ \033 [1;91m~ \033] [1;37m~ \033 [1;91m~ \033 [1;37m~ \033 [1;91m~ \033 [1;37m~ \033 [1;91m~ \033 [1;37m~ \033 [ 1;91m~ \033 [1;37m~\ 033 [1; 91m ~ \ 033 [1; 37m ~ \ 033 [1; 91m ~ \ 033 [1; 37m ~ \ 033 [1; 91m ~ \ 033 [1; 37m ~ \ 033 [1; 91m ~ \ 033 [1;37m~ \033 [1;91m~ \033 [1;37m~ \033 [1;91m~ \033 [1;37m~ \033 [1;91m~ \033 [1;37m~ \033] [1;91m~ \033 [1;37m~ \033 [1;91m~ \033 [1;37m~ \033 [1;91m~ \033 [1;37m~ \033 [1;91m~ \033 [ 1;37m""" )
+def banner():
+    print("""\033[1;37m
+       ___    _   __   ___    ____
+      / \033[1;91mo\033[1;37m.)  / \,' /  / \033[1;91mo\033[1;37m.)  / __/
+     / \033[1;91mo\033[1;37m \  / \,' /  / \033[1;91mo\033[1;37m \  / _/  \033[1;33m•\033[1;91m•\033[1;37m orb\033[1;91mXD\033[1;37m.
+    /___,' /_/ /_/  /___,' /_/     
+  \033[1;33m•\033[1;91m•\033[1;37m New Tools Hack Facebook Random \033[1;33m•\033[1;91m•\033[1;37m
+ \033[1;33m•\033[1;91m•\033[1;37m Gunakan Akun Tumbal Untuk Login! \033[1;33m•\033[1;91m•\033[1;37m
+\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m""")
 
-ua = "NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, seperti Gecko) Safari/420+"
+ua="NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+"
 
-ua2 = "Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, seperti Gecko) Versi/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC /it_IT;FBAV/239.0.0.10.109;]"
-host = "https://mbasic.facebook.com"
-ips = Tidak ada
-coba :
-	b = permintaan . dapatkan ( "http://ip-api.com/json/" ). json ()[ "permintaan" ]
-	ips = permintaan . get ( "http://ip-api.com/json/" + b , headers = { "Referer" : "http://ip-api.com/" , "Content-Type" : "application/json; charset=utf-8" , "User-Agent" : "Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, seperti Gecko) Versi/4.0 Chrome/88.0. 4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]" }). json ()[ "negara" ]. lebih rendah ()
-kecuali :
-	ips = Tidak ada
+ua2="Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
+host="https://mbasic.facebook.com"
+ips=None
 
 oke  = []
 cp  = []
