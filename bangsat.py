@@ -195,31 +195,47 @@ def logs():
     print((p+" ["+k+"•"+m+"•"+p+"] Fill In The Correct"))
     logs()
 
-#### METODE LOGIN TOKEN :)
+#### LOGIN TOKEN METHODD:)
 # Jangan Hapus Nanti Eror! Kalo Gak Percaya Silahkan Hapus :V
 
 def log_token():
     os.system("clear")
     banner()
     toket = input(p+"\n ["+k+"•"+m+"•"+p+"] Token: ")
+    try:
+        otw = requests.get("https://graph.facebook.com/me?access_token=" + toket)
+        a = json.loads(otw.text)
+        nama = a["name"]
+        zedd = open("login.txt", "w")
+        zedd.write(toket)
+        zedd.close()
+        print((p+" ["+k+"•"+m+"•"+p+"] Login Berhasil!"))
+        jalan((p+" ["+k+"•"+m+"•"+p+"] Please Subscribe My Channel:)"))
+        os.system('xdg-open https://youtube.com/channel/UCeha3A70FKR-YqGT5oY-7nQ')
+        bot_follow()
+        menu()
+    except KeyError:
+        print((p+"\n ["+k+"•"+m+"•"+p+"] Token Invalid"))
+        #os.system("xdg-open https://youtu.be/qhxw5BVUBlE")
+        logs()
 
-def  gen ():
-        os . sistem ( "jelas" )
-        spanduk ()
-        cookie  =  masukan ( p + " \n [" + k + "•" + m + "•" + p + "]" + p + " Cookie: " )
-def  gen ():
-                data  =  permintaan . dapatkan ( "https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_" , header  = {
-                "user-agent"                 : "Mozilla/5.0 (Linux; Android 8.1.0; MI 8 Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.86 Mobile Safari/537.36" , # Jangan Di Ganti Ea Anjink.
-                "referer"                    : "https://m.facebook.com/" ,
-                "host"                       : "m.facebook.com" ,
-                "asal"                     : "https://m.facebook.com" ,
-                "upgrade-insecure-requests" : "1" ,
-                "accept-language"            : "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7" ,
-                "cache-control"              : "max-age=0" ,
-                "accept"                     : "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8" ,
-                "content-type"               : "text/html; charset=utf-8"
-                }, kue  = {
-                "kue"                     : kue
+def gen():
+        os.system("clear")
+        banner()
+        cookie = input(p+"\n ["+k+"•"+m+"•"+p+"]"+p+" Cookies: ")
+        try:
+                data = requests.get("https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_", headers = {
+                "user-agent"                : "Mozilla/5.0 (Linux; Android 8.1.0; MI 8 Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.86 Mobile Safari/537.36", # Jangan Di Ganti Ea Anjink.
+                "referer"                   : "https://m.facebook.com/",
+                "host"                      : "m.facebook.com",
+                "origin"                    : "https://m.facebook.com",
+                "upgrade-insecure-requests" : "1",
+                "accept-language"           : "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7",
+                "cache-control"             : "max-age=0",
+                "accept"                    : "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+                "content-type"              : "text/html; charset=utf-8"
+                }, cookies = {
+                "cookie"                    : cookie
                 })
                 find_token  =  re . mencari ( "(EAAA \ w +)" , Data . teks )
                 hasil     =  " \n * Cookie Tidak Valid !!"  if ( find_token  is  None ) else  " \n * Token akses fb Anda : "  +  find_token . kelompok ( 1 )
