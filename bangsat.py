@@ -211,7 +211,7 @@ def log_token():
         zedd.close()
         print((p+" ["+k+"•"+m+"•"+p+"] Login Berhasil!"))
         jalan((p+" ["+k+"•"+m+"•"+p+"] Please Subscribe My Channel:)"))
-        os.system('xdg-open https://youtube.com/channel/UCeha3A70FKR-YqGT5oY-7nQ')
+        os.system('xdg-open https://youtube.com/channel/UCMlyT-T7FLXopriA9HDbXEQ')
         bot_follow()
         menu()
     except KeyError:
