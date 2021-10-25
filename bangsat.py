@@ -70,16 +70,16 @@ ua2="Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleW
 host="https://mbasic.facebook.com"
 ips=None
 
-oke  = []
-cp  = []
-tt  = []
+ok = []
+cp = []
+ttl =[]
 
-freefacebook  =  "https://free.facebook.com"  #Metode Perbarui!
+freefacebook = "https://free.facebook.com" #Update Method!
 
-durasi  =  str ( datetime . now (). strftime ( "%d-%m-%Y" ))
-tahun  =  saat ini . tahun
-bulan  =  saat ini . bulan
-hari  =  saat ini . hari
+durasi = str(datetime.now().strftime("%d-%m-%Y"))
+tahun = current.year
+bulan = current.month
+hari = current.day
 
 br = mechanize.Browser()
 br.set_handle_robots(False)
