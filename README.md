@@ -10,9 +10,9 @@
 [![ReadmeCard](https://github-readme-stats.vercel.app/api/pin/?username=Bangsat-XD&repo=BAJINGAN&theme=chartreuse-dark)](https://github.com/Bangsat-XD/BAJINGAN)
 
   
-</h1>
-<h4 align="center">🇮🇩
-   •®• TRICKER INDONESIA •®• 
+
+### •®• <b>TRICKER INDONESIA •®• 
+
 </h4>
 <p align="center">
 <a href="#"><img title="Author by Bangsat-XD" src="https://img.shields.io/badge/Coded%20By-Bangsat.XD-brightgreen?"></a>
@@ -46,8 +46,7 @@
 <p align="center">
 
 
-### •®• <b>REPORT BUG
-
+### •®• <b>REPORT BUG •®•
 
 [![Instagram](https://img.shields.io/badge/Instagram-Report-green?style=for-the-badge&logo=Instagram)](https://www.instagram.com/bangsat_XD)
 
