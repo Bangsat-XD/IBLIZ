@@ -81,23 +81,23 @@ tahun  =  saat ini . tahun
 bulan  =  saat ini . bulan
 hari  =  saat ini . hari
 
-br  =  mekanisasi . Peramban ()
-br . set_handle_robots ( Salah )
-br . set_handle_refresh ( mekanisasi . _http . HTTPRefreshProcessor (), max_time = 1 )
-br . addheaders  = [( 'User-Agent' , ua )]
+br = mechanize.Browser()
+br.set_handle_robots(False)
+br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
+br.addheaders = [('User-Agent',ua)]
 
-def  jalan ( z ):
-	untuk  e  dalam  z  +  " \n " :
-		sys . stdout . write ( e )
-		sys . stdout . menyiram ()
-		waktu . tidur ( 0,03 )
+def jalan(z):
+	for e in z + "\n":
+		sys.stdout.write(e)
+		sys.stdout.flush()
+		time.sleep(0.03)
 
-def  jelas ():
-	jika  "linux"  di  sys . platform . lebih rendah ():
-		os . sistem ( "jelas" )
-	elif  "menang"  di  sys . platform . lebih rendah ():
-		os . sistem ( "cls" )
-	lain : os . sistem ( "jelas" )
+def clear():
+	if " linux" in sys.platform.lower():
+		os.system("clear")
+	elif "win" in sys.platform.lower():
+		os.system("cls")
+	else:os.system("clear")
     
 def  lang ( kue ):
 	f = Salah
