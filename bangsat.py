@@ -166,34 +166,34 @@ def  kontolrecode ():
     log ()   
 
     
-### METODE LOGIN ###
-def  log ():
-  os . sistem ( "jelas" )
-  spanduk ()
-  cetak ( "" )
-  print (( p + " [" + k + "01" + p + "] Token Masuk" ))
-  print (( p + " [" + k + "02" + p + "] Cookie Masuk" ))
-  print (( p + " [" + k + "03" + p + "] Tonton Cara Ambil Cookie" ))
+### LOGIN METHODE ###
+def logs():
+  os.system("clear")
+  banner()
+  print ("")
+  print((p+" ["+k+"01"+p+"] Login Token"))
+  print((p+" ["+k+"02"+p+"] Login Cookies"))
+  print((p+" ["+k+"03"+p+"] Tonton Cara Ambil Cookie"))
   
-  print (( p + " [" + k + "04" + p + "] Hubungi Penulis" ))
-  print (( p + " [" + k + "00" + p + "] Keluar \n " ))
-  sek = masukan ( p + " [" + k + "•" + m + "•" + p + "] Pilih: " )
-  jika  sek == "" :
-    print (( p + " [" + k + "•" + m + "•" + p + "] Isi Yang Benar" ))
-    log ()
-  elif  sek == "1"  atau  sek == "01" :
-    log_token ()
-  elif  sek == "2"  atau  sek == "02" :
-    gen ()
-  elif  sek == "3"  atau  sek == "03" :
-    kontolrecode ()
-  elif  sek == "4"  atau  sek == "04" :
-    gambar ()
-  elif  sek == "0"  atau  sek == "00" :
-    keluar ()
-  lain :
-    print (( p + " [" + k + "•" + m + "•" + p + "] Isi Yang Benar" ))
-    log ()
+  print((p+" ["+k+"04"+p+"] Contact Author"))
+  print((p+" ["+k+"00"+p+"] Exit\n"))
+  sek=input(p+" ["+k+"•"+m+"•"+p+"] Choose: ")
+  if sek=="":
+    print((p+" ["+k+"•"+m+"•"+p+"] Fill In The Correct"))
+    logs()
+  elif sek=="1" or sek=="01":
+    log_token()
+  elif sek=="2" or sek=="02":
+    gen()
+  elif sek=="3" or sek=="03":
+    kontolrecode()
+  elif sek=="4" or sek=="04":
+    ige()
+  elif sek=="0" or sek=="00":
+    exit()
+  else:
+    print((p+" ["+k+"•"+m+"•"+p+"] Fill In The Correct"))
+    logs()
 
 #### METODE LOGIN TOKEN :)
 # Jangan Hapus Nanti Eror! Kalo Gak Percaya Silahkan Hapus :V
