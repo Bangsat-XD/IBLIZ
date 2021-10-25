@@ -15,7 +15,7 @@
 # #
 #Tipe Python3#
 # #
-# Nama File: prem.py #
+# Nama File: fuck.py #
 # #
 # Github: https://www.github.com/Bangsat-XD#
 # #
