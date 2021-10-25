@@ -108,7 +108,7 @@ def lang(cookies):
 			b=requests.get("https://mbasic.facebook.com/profile.php",headers=hdcok(),cookies=cookies).text	
 			if "apa yang anda pikirkan sekarang" in b.lower():
 				f=True
-		if f==True:
+	if f==True:
 		return True
 	else:
 		exit(p+" ["+k+"•"+m+"•"+p+"] Wrong Cookies")
