@@ -1,6 +1,6 @@
 - 👨🏽‍💻 •®• <b>HELLO PROGRAMERS! <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px">
 
-<b> <a href="https://www.twitter.com/Bangsat_XD" target="blank">☆ Raka ☆™︻®╤───────═◍➤</a> 💦
+<b> <a href="https://www.twitter.com/Bangsat_XD" target="blank">☆ Raka ☆™︻®╤───────═◍➤</a>
 &nbsp;
 - 👨🏽‍💻 •®• <b>𝙒𝘼𝙎 𝙃𝙀𝙍𝙀 
 - ⚡️ •®• 𝙄'𝙈 𝙇𝙊𝙊𝙆𝙄𝙉𝙂 𝙏𝙊 𝘾𝙊𝙇𝙇𝘼𝘽𝙊𝙍𝘼𝙏𝙀 𝙊𝙉 𝙄 𝘼𝙈 𝘼 𝘽𝘼𝙎𝙄𝘾 𝙀𝙏𝙃𝙄𝘾𝘼𝙇 𝙃𝘼𝘾𝙆𝙀𝙍
