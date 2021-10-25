@@ -15,7 +15,7 @@
 # #
 #Tipe Python3#
 # #
-# Nama File: bangsat.py #
+# Nama File: prem.py #
 # #
 # Github: https://www.github.com/Bangsat-XD#
 # #
