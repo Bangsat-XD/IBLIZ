@@ -1,35 +1,35 @@
 #!/usr/bin/python3
 #coding=utf-8
 
-## Buka Resource Code Buat Belajar Lu Ye. Kalo Mau Recode, Recode Ajah Tapi Ngotak :)
+## Open Resource Code Buat Belajar Lu Ye. Kalo Mau Recode, Recode Ajah Tapi Ngotak:) 
 
-#Tinggalkan Jejak Anda Dengan Cara Tag Nama Recodernya :)
+# Tinggalkan Jejak Anda Dengan Cara Tag Nama Recodernya :)
 
-############################################################# ####
-# #
-# Kode ulang? Boleh #
-# #
-# Yang Penting Bot Follow Jangan Di Ganti! #
-# #
-# Dibuat Oleh Bii Dev, /.Bdbss, orbXD #
-# #
-#Tipe Python3#
-# #
-# Nama File: fuck.py #
-# #
-# Github: https://www.github.com/Bangsat-XD#
-# #
-############################################################# ####
+######################################################
+#                                                    #
+# Recode? Boleh                                      #
+#                                                    #
+# Yang Penting Bot Follow  Jangan Di Ganti!          #
+#                                                    #
+# Created By Bii Dev, /.Bdbss,  orbXD                #
+#                                                    #
+# Tipe Python3                                       #
+#                                                    #
+# File Name: bangsat.py                                 #
+#                                                    #
+# Github: https://www.github.com/Bangsat-XD            #
+#                                                    #
+######################################################
 
 
-permintaan impor , mekanisasi , bs4 , sys , os , subproses , uuid , acak , waktu , ulang , base64 , urllib , json , urllib . mengurai , bersamaan . masa depan
-dari  randint impor acak  
-dari  urlib . mengurai  kutipan impor 
-dari  bersamaan . futures  mengimpor  ThreadPoolExecutor  sebagai  ThreadPool
-dari  bs4  impor  BeautifulSoup  sebagai  parser
-dari  tanggal impor datetime  
-dari  datetime  impor  datetime
-saat ini  = tanggal  waktu . sekarang ()
+import requests,mechanize,bs4,sys,os,subprocess,uuid,random,time,re,base64,urllib,json,urllib.parse,concurrent.futures
+from random import randint
+from urllib.parse import quote
+from concurrent.futures import ThreadPoolExecutor as ThreadPool
+from bs4 import BeautifulSoup as parser
+from datetime import date
+from datetime import datetime
+current = datetime.now()
 
 p  =  " \x1b [0;37m"  # putih
 m  =  " \x1b [0;31m"  # merah
