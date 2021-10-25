@@ -22,7 +22,7 @@
 ############################################################# ####
 
 
- permintaan impor , mekanisasi , bs4 , sys , os , subproses , uuid , acak , waktu , ulang , base64 , urllib , json , urllib . mengurai , bersamaan . masa depan
+permintaan impor , mekanisasi , bs4 , sys , os , subproses , uuid , acak , waktu , ulang , base64 , urllib , json , urllib . mengurai , bersamaan . masa depan
 dari  randint impor acak  
 dari  urlib . mengurai  kutipan impor 
 dari  bersamaan . futures  mengimpor  ThreadPoolExecutor  sebagai  ThreadPool
