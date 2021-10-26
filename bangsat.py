@@ -15,9 +15,9 @@
 #                                                    #
 # Tipe Python3                                       #
 #                                                    #
-# File Name: bangsat.py                                 #
+# File Name: bangsat.py                              #
 #                                                    #
-# Github: https://www.github.com/Bangsat-XD            #
+# Github: https://www.github.com/Bangsat-XD          #
 #                                                    #
 ######################################################
 
