@@ -15,23 +15,21 @@
 <p align="center">
 </h1>
 
-  <p align="center">
-  <img width="600" height="220" src="https://github-readme-stats.vercel.app/api?username=Bangsat-XD&show_icons=true&theme=chartreuse-dark&locale=id">
+<p align="center">
+<img width="600" height="220" src="https://github-readme-stats.vercel.app/api?username=Bangsat-XD&show_icons=true&theme=chartreuse-dark&locale=id">
 </p>
 <p align="center">
-  <img width="400" height="120" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bangsat-XD&layout=compact&theme=chartreuse-dark">
+<img width="400" height="120" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bangsat-XD&layout=compact&theme=chartreuse-dark">
 </p>
 
 [![ReadmeCard](https://github-readme-stats.vercel.app/api/pin/?username=Bangsat-XD&repo=BAJINGAN&theme=chartreuse-dark)](https://github.com/Bangsat-XD/BAJINGAN)
 
 [![ReadmeCard](https://github-readme-stats.vercel.app/api/pin/?username=Bangsat-XD&repo=IBLIZ&theme=chartreuse-dark)](https://github.com/Bangsat-XD/IBLIZ)
 
-  
 </h1>
 <h4 align="center">
 <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif" width="24px">
  •®• <b>TRICKER INDONESIA •®• <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif" width="24px">
-
 
 </h4>
 <p align="center">
