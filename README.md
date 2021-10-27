@@ -25,6 +25,7 @@
 
 [![ReadmeCard](https://github-readme-stats.vercel.app/api/pin/?username=Bangsat-XD&repo=IBLIZ&theme=chartreuse-dark)](https://github.com/Bangsat-XD/IBLIZ)
 
+[![ReadmeCard](https://github-readme-stats.vercel.app/api/pin/?username=Bangsat-XD&repo=SETAN&theme=chartreuse-dark)](https://github.com/Bangsat-XD/SETAN)
 </h1>
 <h4 align="center">
 <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif" width="24px">
