@@ -13,12 +13,11 @@
 <img src="https://github.com/MRVIVEK-CODER/Decompiler/blob/main/106824690-8dd73a00-66ad-11eb-89e2-53e13ac6f594.gif" alt="" border="0" />
 <p align="center">
 </h1>
-
-<p align="center">
-<img width="600" height="220" src="https://github-readme-stats.vercel.app/api?username=Bangsat-XD&show_icons=true&theme=chartreuse-dark&locale=id">
+  <p align="center">
+  <img width="600" height="220" src="https://github-readme-stats.vercel.app/api?username=Bangsat-XD&show_icons=true&theme=chartreuse-dark&locale=id">
 </p>
 <p align="center">
-<img width="400" height="120" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bangsat-XD&layout=compact&theme=chartreuse-dark">
+  <img width="400" height="120" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bangsat-XD&layout=compact&theme=chartreuse-dark">
 </p>
 
 [![ReadmeCard](https://github-readme-stats.vercel.app/api/pin/?username=Bangsat-XD&repo=BAJINGAN&theme=chartreuse-dark)](https://github.com/Bangsat-XD/BAJINGAN)
@@ -26,10 +25,14 @@
 [![ReadmeCard](https://github-readme-stats.vercel.app/api/pin/?username=Bangsat-XD&repo=IBLIZ&theme=chartreuse-dark)](https://github.com/Bangsat-XD/IBLIZ)
 
 [![ReadmeCard](https://github-readme-stats.vercel.app/api/pin/?username=Bangsat-XD&repo=SETAN&theme=chartreuse-dark)](https://github.com/Bangsat-XD/SETAN)
+
+[![ReadmeCard](https://github-readme-stats.vercel.app/api/pin/?username=Bangsat-XD&repo=JURIG&theme=chartreuse-dark)](https://github.com/Bangsat-XD/JURIG)
+  
 </h1>
 <h4 align="center">
 <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif" width="24px">
  •®• <b>TRICKER INDONESIA •®• <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif" width="24px">
+
 
 </h4>
 <p align="center">
@@ -54,11 +57,11 @@
   <a href="https://github.com/Bangsat-XD/IBLIZ">
     <img alt="Repo Size" src="https://img.shields.io/github/repo-size/Bangsat-XD/IBLIZ.svg"/>
   </a>
-  <a href="https://github.com/Bangsat-XD/BAJINGAN">
-    <img alt="Starts" src="https://img.shields.io/github/stars/Bangsat-XD/BAJINGAN.svg"/>
-  </a>
   <a href="https://github.com/Bangsat-XD/IBLIZ">
-    <img alt="Forks" src="https://img.shields.io/github/forks/Bangsat-XD/IBLIZ.svg"/>
+    <img alt="Starts" src="https://img.shields.io/github/stars/Bangsat-XD/IBLIZ.svg"/>
+  </a>
+  <a href="https://github.com/Bangsat-XD/BAJINGAN">
+    <img alt="Forks" src="https://img.shields.io/github/forks/Bangsat-XD/BAJINGAN.svg"/>
   </a>
 </div>
 <p align="center">
@@ -80,4 +83,3 @@
 <h4 align="center">
 
 [![Youtube](https://img.shields.io/badge/Youtube-Report-green?style=for-the-badge&logo=Youtube)](https://youtube.com/channel/UCeha3A70FKR-YqGT5oY-7nQ)
-
