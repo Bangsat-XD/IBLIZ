@@ -199,7 +199,7 @@ def log_token():
         zedd.close()
         print((p+" ["+k+"•"+m+"•"+p+"] Login Berhasil!"))
 
-def gen():
+	def gen():
         os.system("clear")
         banner()
         cookie = input(p+"\n ["+k+"•"+m+"•"+p+"]"+p+" Cookies: ")
