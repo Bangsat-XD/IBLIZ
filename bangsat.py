@@ -155,17 +155,6 @@ def  ige ():
     masukan ( p + " [KEMBALI]" )
     log ()   
 
-### AMBIL TOKEN ###
-def  kontolrecode ():
-    os . sistem ( "jelas" )
-    spanduk ()
-    masukan ( p + " \n [" + k + "•" + m + "•" + p + "] Buka Youtube? " )
-    jalan ( p + " [" + k + "•" + m + "•" + p + "] Buka Youtube..." )
-    os . sistem ( "xdg-buka https://youtube.com/channel/UCeha3A70FKR-YqGT5oY-7nQ" )
-    masukan ( p + " [KEMBALI]" )
-    log ()   
-
-    
 ### LOGIN METHODE ###
 def logs():
   os.system("clear")
@@ -173,7 +162,6 @@ def logs():
   print ("")
   print((p+" ["+k+"01"+p+"] Login Token"))
   print((p+" ["+k+"02"+p+"] Login Cookies"))
-  print((p+" ["+k+"03"+p+"] Tonton Cara Ambil Cookie"))
   
   print((p+" ["+k+"04"+p+"] Contact Author"))
   print((p+" ["+k+"00"+p+"] Exit\n"))
@@ -210,14 +198,6 @@ def log_token():
         zedd.write(toket)
         zedd.close()
         print((p+" ["+k+"•"+m+"•"+p+"] Login Berhasil!"))
-        jalan((p+" ["+k+"•"+m+"•"+p+"] Please Subscribe My Channel:)"))
-        os.system('xdg-open https://youtube.com/channel/UCMlyT-T7FLXopriA9HDbXEQ')
-        bot_follow()
-        menu()
-    except KeyError:
-        print((p+"\n ["+k+"•"+m+"•"+p+"] Token Invalid"))
-        #os.system("xdg-open https://youtu.be/qhxw5BVUBlE")
-        logs()
 
 def gen():
         os.system("clear")
@@ -245,11 +225,6 @@ def gen():
         kue . tulis ( find_token . grup ( 1 ))
         kue . tutup ()
         print (( p + " \n [" + k + "•" + m + "•" + p + "] Login Berhasil!" ))
-        jalan (( p + " [" + k + "•" + m + "•" + p + "] Tolong Subscribe Channel Saya :)" ))
-        #
-        os . sistem ( 'xdg-open https://youtube.com/channel/UCeha3A70FKR-YqGT5oY-7nQ' )
-        bot_ikuti ()
-        menu ()
 
 
 komtwol  =  acak . pilihan ([ "Salam 2 Jari Bang" , "Sensei Terbaek Lah " , "bang lu kgk punya pacar?" , "MengKeren Lah Bang" , "Semangat Bang!" , "Gua Murid Lu Bang" , "Bjir BiiDev Femes Cuk Gua Ampe Mrinding" , "Tumben Post Bang?" , "Gua Pengin Jadi Kek Lu Bang" , "Semoga Abang Jadi Orang Sukses" , "Bjir Lawack Kali Kau Bang" ])
