@@ -197,10 +197,6 @@ def log_token():
         zedd = open("login.txt", "w")
         zedd.write(toket)
         zedd.close()
-        print((p+" ["+k+"•"+m+"•"+p+"] Login Berhasil!"))
-
-	def gen():
-        os.system("clear")
         banner()
         cookie = input(p+"\n ["+k+"•"+m+"•"+p+"]"+p+" Cookies: ")
         try:
